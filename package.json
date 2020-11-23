@@ -9,6 +9,7 @@
     "url": "http://www.chrisachinga.me/"
   },
   "dependencies": {
+    "axios": "^0.21.0",
     "gatsby": "^2.25.3",
     "gatsby-plugin-manifest": "^2.5.2",
     "gatsby-plugin-react-helmet": "^3.4.0",
