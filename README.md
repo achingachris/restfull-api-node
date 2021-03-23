@@ -1,1 +1,1 @@
-![Checks](https://github.com/ChrisAchinga/covid-map/workflows/Checks/badge.svg)
+# RESTFULL APIs
