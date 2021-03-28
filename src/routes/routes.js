@@ -1,3 +1,5 @@
+import { addNewContact } from '../controllers/controller'
+
 const routes = (app) => {
   app
     .route('/contact')
@@ -12,7 +14,7 @@ const routes = (app) => {
         res.send('GET REQUEST 200')
       }
     )
-    .post((req, res) => res.send('POST REQUEST 200'))
+    .post(addNewContact)
 
   app
     .route('/contact/contactID')
